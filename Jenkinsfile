@@ -35,7 +35,4 @@ node {
         sh "cat diff.txt"
         
     }
-    stage('TestResultCheck') { 
-       sh "sh checkempty.sh "
-    }
 }
