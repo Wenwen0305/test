@@ -1,7 +1,1 @@
 www.aaa.com/root/123.htm
-123.htm
-http://www.aaa.com/root
-http:
-http://
-www.aaa.com/root/123.htm
-123
