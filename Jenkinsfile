@@ -26,8 +26,7 @@ node {
       // sh " echo https://github.com/lzjun567/python_scripts |  /usr/bin/python   02_find_all_links.py >testlog.log"
      //  sh "diff testlog.log reflog.log"
    
-     sh "sh ./sum.sh >testlog.txt "
-    sh "diff testlog.txt reflog.txt"
+        sh "sh ./sum.sh >testlog.txt "
         sh "diff testlog.txt reflog.txt >diff.txt"
         sh "cp diff.txt diff.sh"
           // Archive the build output artifacts.
